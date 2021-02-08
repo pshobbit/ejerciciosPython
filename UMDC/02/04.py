@@ -1,9 +1,14 @@
-# Area de un triángulo en base a sus puntos
-# Escribir una función que dado un vector al origen(definido por sus puntos x,y), devuelva la norma del vector,
-# dada por (x^2 + y^2) ^ 1/2
+"""
+Ejercicio 04
+Área de un triángulo en base a sus puntos
+a) Escribir una función que dado un vector al origen (definido por sus puntos
+x, y), devuelva la norma del vector, dada por (x^2 + y^2) ^ 1/2
+http://www.ub.edu/glossarimateco/content/norma-de-un-vector
+"""
+
 
 def norma(x, y):
-    return (x*x + y*y)**(1/2)
+    return (x * x + y * y) ** (1/2)
 
 
 """
